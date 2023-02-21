@@ -1,0 +1,117 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-21T23:54:20.894Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1743000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.BackGroundStepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "White Background Change",
+        "description": "",
+        "id": "background-color-change-validation;white-background-change",
+        "after": [
+          {
+            "result": {
+              "duration": 654000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.BackGroundStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 526000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "\"Set White Background\" white button exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Set White Background\"",
+                  "offset": 0
+                }
+              ],
+              "location": "steps.BackGroundStepDefinition.w_button_exists(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5133000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on the White \"White\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"White\"",
+                  "offset": 21
+                }
+              ],
+              "location": "steps.BackGroundStepDefinition.i_click_on_theWhite(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 293000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the background color will change to white \"white\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"white\"",
+                  "offset": 42
+                }
+              ],
+              "location": "steps.BackGroundStepDefinition.the_background_color_will_change_to_white(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BachGroundColorFeature"
+          },
+          {
+            "name": "@Scenario2"
+          }
+        ]
+      }
+    ],
+    "name": "Background color change validation",
+    "description": "",
+    "id": "background-color-change-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/SkyBleuFeature.feature",
+    "tags": [
+      {
+        "name": "@BachGroundColorFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
